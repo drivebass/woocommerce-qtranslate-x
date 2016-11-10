@@ -157,9 +157,9 @@ function qwc_add_admin_page_config($page_configs)
 	$page_configs[] = $page_config;
 	}
 
-	{//tab=checkout&section=wc_gateway_bacs
+	{//tab=checkout&section=bacs
 	$page_config = array();
-	$page_config['pages'] = array( 'admin.php' => 'page=wc-settings&tab=checkout&section=wc_gateway_bacs');
+	$page_config['pages'] = array( 'admin.php' => 'page=wc-settings&tab=checkout&section=bacs');
 	//$page_config['anchors'] = array( 'titlediv'  );
 
 	$page_config['forms'] = array();
@@ -179,9 +179,9 @@ function qwc_add_admin_page_config($page_configs)
 	$page_configs[] = $page_config;
 	}
 
-	{//tab=checkout&section=wc_gateway_cheque
+	{//tab=checkout&section=cheque
 	$page_config = array();
-	$page_config['pages'] = array( 'admin.php' => 'page=wc-settings&tab=checkout&section=wc_gateway_cheque');
+	$page_config['pages'] = array( 'admin.php' => 'page=wc-settings&tab=checkout&section=cheque');
 	//$page_config['anchors'] = array( 'titlediv'  );
 
 	$page_config['forms'] = array();
@@ -200,9 +200,9 @@ function qwc_add_admin_page_config($page_configs)
 	$page_configs[] = $page_config;
 	}
 
-	{//tab=checkout&section=wc_gateway_cod
+	{//tab=checkout&section=cod
 	$page_config = array();
-	$page_config['pages'] = array( 'admin.php' => 'page=wc-settings&tab=checkout&section=wc_gateway_cod');
+	$page_config['pages'] = array( 'admin.php' => 'page=wc-settings&tab=checkout&section=cod');
 	//$page_config['anchors'] = array( 'titlediv'  );
 
 	$page_config['forms'] = array();
@@ -221,9 +221,9 @@ function qwc_add_admin_page_config($page_configs)
 	$page_configs[] = $page_config;
 	}
 
-	{//tab=checkout&section=wc_gateway_paypal
+	{//tab=checkout&section=paypal
 	$page_config = array();
-	$page_config['pages'] = array( 'admin.php' => 'page=wc-settings&tab=checkout&section=wc_gateway_paypal');
+	$page_config['pages'] = array( 'admin.php' => 'page=wc-settings&tab=checkout&section=paypal');
 	//$page_config['anchors'] = array( 'titlediv'  );
 
 	$page_config['forms'] = array();
